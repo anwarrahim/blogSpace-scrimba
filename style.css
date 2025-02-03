@@ -1,0 +1,36 @@
+html {
+    font-size: 16px;
+}
+body{
+    font-family: "Orbitron", serif;
+    /*font-family: "Smythe", serif;*/
+    margin: 0;
+}
+
+header{
+         font-family: "Chewy", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2rem;
+        position: fixed;
+        background: burlywood;
+        padding: 0;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+
+
+    /*margin: 0;*/
+        }
+#blog-content{
+    padding:170px 30px 0 30px ;
+}
+
+#blog-content h1::first-letter{
+    font-family: "Smythe", serif;
+    text-transform: uppercase;
+    color: burlywood;
+    text-decoration: underline ;
+    font-size: 3rem;
+}
