@@ -17,7 +17,7 @@ fetch("https://apis.scrimba.com/jsonplaceholder/posts")
         e.preventDefault()
         const postTitle = titleInput.value
         const postBody = bodyInput.value
-        const dataObj ={
+        const dataObj = {
             title: postTitle,
             body:postBody
         }
