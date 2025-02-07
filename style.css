@@ -39,6 +39,11 @@ button{
     font:2em bold black ;
     margin-top: 2rem;
     width: 6em;
+    background-color: burlywood;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: "Orbitron", Cochin, Georgia, Times, 'Times New Roman', sans-serif;
 }
 
 header{
